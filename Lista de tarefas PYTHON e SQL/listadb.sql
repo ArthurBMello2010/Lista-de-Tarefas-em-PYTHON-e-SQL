@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS lista_de_tarefas;
+USE lista_de_tarefas;
+
+CREATE TABLE lista(
+id INT AUTO_INCREMENT PRIMARY KEY,
+tarefa VARCHAR(100) NOT NULL,
+situacao VARCHAR(100) NOT NULL);
+
+
